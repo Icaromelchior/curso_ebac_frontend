@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Página Inicial</a></li>
+                <li><a href="./containers.html">Containers</a></li>
+                <li><a href="./listas.html">Listas</a></li>
+                <li><a href="./tabelas.html">Tabelas</a></li>
+                <li><a href="./formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+    </header>
+        <main>
+            <div>
+                <section>
+                    <p>
+                        Formulários em HTML são elementos que permitem aos usuários inserir <br>
+                        informações e enviar dados para um servidor web ou manipulá-los localmente <br>
+                        no navegador. Eles são criados usando uma combinação de elementos HTML, <br>
+                        como (form /form), (input), (textarea), (select), entre outros. Aqui está uma <br>
+                        explicação básica de como criar formulários em HTML: <br> <br>
+
+                        1.(form): O elemento (form) é usado para criar um formulário HTML. Ele contém <br>
+                        todos os elementos de entrada e define para onde os dados do formulário serão <br>
+                        enviados quando o usuário o enviar. <br> <br>
+                        (form) action="processar_dados.php" method="post" <br>
+                            Elementos de entrada e botões do formulário aqui <br>
+                        (/form) <br><br>
+                        action: O atributo "action" define a URL ou o script para onde os dados do formulário <br>
+                        serão enviados para processamento. method: O atributo "method" especifica o método HTTP a ser <br>
+                        usado para enviar os dados, geralmente "post" ou "get". <br><br>
+                         
+                        2.(input): O elemento (input) é usado para criar campos de entrada, como campos de texto, caixas de <br>
+                        seleção, botões de rádio e caixas de seleção.
+                    </p>
+                        <input type="text" name="nome" placeholder="Digite seu nome"> <br>
+                        <input type="password" name="senha" placeholder="Digite sua senha"> <br>
+                        <input type="submit" value="Enviar"> <br>
+                        <input type="radio" name="sexo" value="masculino"> Masculino <br>
+                        <input type="radio" name="sexo" value="feminino"> Feminino <br>
+                        <input type="checkbox" name="aceito" value="sim"> Eu aceito os termos
+                    <p>
+                        type: O atributo "type" especifica o tipo de campo de entrada, como "text", "password", <br>
+                        "submit", "radio", "checkbox" e outros. <br>
+                        name: O atributo "name" é usado para identificar o campo de entrada quando o formulário é <br>
+                        enviado para o servidor.  <br><br>
+                        
+                        2.(textarea): O elemento (textarea) é usado para criar campos de texto multilinha.
+                    </p>
+                    <textarea name="comentario" rows="4" cols="50">Digite seu comentário aqui</textarea> <br><br>
+                    <p>
+                        (select) e (option): O elemento (select) cria uma lista suspensa (menu de seleção), 
+                        e (option) define as opções dentro dessa lista.
+                    </p>
+                    <select name="pais">
+                        <option value="brasil">Brasil</option>
+                        <option value="eua">Estados Unidos</option>
+                        <option value="canada">Canadá</option>
+                    </select>
+                    <br>
+                    <p>
+                        3.(button): O elemento (button) cria um botão que pode ser usado para enviar o formulário <br>
+                        ou executar alguma ação JavaScript.
+                    </p>
+                    <button type="submit">Enviar</button>
+                        <button type="reset">Limpar</button>
+                    <button type="button" onclick="minhaFuncao()">Clique-me</button> <br>
+
+                    <p>
+                        Estes são os elementos básicos para criar um formulário em HTML. Você pode <br>
+                        adicionar estilos CSS para personalizar a aparência do formulário e usar JavaScript <br>
+                        para adicionar funcionalidades interativas, como validação de dados do formulário. <br>
+                        Quando o usuário preencher o formulário e clicar no botão "Enviar," os dados serão <br>
+                        enviados para o servidor especificado no atributo "action" do elemento (form).
+                    </p>
+
+
+                </section>
+            </div>
+        </main>
+
+    <footer>
+            <p>&copy; 2023 todos direitos reservados</p> 
+    </footer>
+    
+</body>
+</html>
