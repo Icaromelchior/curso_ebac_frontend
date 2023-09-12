@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias HTML</title>
+</head>
+<body>
+    <header>
+        <h1>Midias HTML</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Página Inicial</a></li>
+                <li><a href="./containers.html">Containers</a></li>
+                <li><a href="./listas.html">Listas</a></li>
+                <li><a href="./tabelas.html">Tabelas</a></li>
+                <li><a href="./formularios.html">Formularios</a></li>
+                <li><a href="./midia.html">Midias</a></li>
+                <li><a href="./exercicio.html">Ezercício HTML</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <section>
+                <p>
+                    Em HTML, você pode incorporar mídia, como áudio e vídeo, em suas <br>
+                    páginas da web usando as tags (audio) e (video). Aqui estão exemplos <br>
+                    de como usar essas tags: <br><br>
+
+                    1.(audio): Esta tag é usada para incorporar áudio em sua página da web.
+                </p>
+                <audio controls>
+                    <source src="/midias/musica_module 3.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+                <p>
+                    Neste exemplo: <br>
+                    controls: O atributo "controls" exibe controles de áudio, <br>
+                    como reproduzir, pausar e ajustar o volume. <br>
+                    "source": Você pode especificar várias fontes de áudio em diferentes <br>
+                    formatos para garantir a compatibilidade com diferentes navegadores. <br>
+                    O navegador escolherá o primeiro formato que ele pode reproduzir.
+                </p>
+                <p>
+                    2."video": Esta tag é usada para incorporar vídeos em sua página da web. <br>
+                </p>
+                <video controls width="320" height="240">
+                    <source src="/midias/video_module 3.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+                <p>
+                    Neste exemplo: <br>
+                    controls: O atributo "controls" exibe controles de vídeo, como reproduzir, pausar, ajustar o volume e tela cheia. <br>
+                    width e height: Você pode definir a largura e a altura do vídeo em pixels para controlar o tamanho da exibição. <br>
+                    "source": Da mesma forma que com o elemento "audio", você pode especificar várias fontes de vídeo em diferentes <br>
+                    formatos para garantir a compatibilidade com diferentes navegadores. <br>
+                    Lembre-se de substituir "seu_audio.mp3" e "seu_video.mp4" pelos URLs ou caminhos dos arquivos de áudio e vídeo que <br>
+                    você deseja incorporar em sua página da web. <br>
+                    Além disso, é importante fornecer um texto alternativo entre as tags "audio" e "video" (por exemplo, "Seu navegador <br>
+                    não suporta o elemento de áudio." ou "Seu navegador não suporta o elemento de vídeo.") que será exibido se o navegador <br>
+                    do usuário não suportar a mídia ou se o arquivo não estiver disponível. Isso garante uma experiência acessível para <br>
+                    todos os usuários. <br>
+                </p>
+                <p>
+                    Para exibir uma imagem em uma página da web usando HTML, você pode usar a tag "img". Aqui está um exemplo simples de como usar essa tag: <br>
+
+                </p>
+                <img src="/midias/imagem_module 3.jpg" alt="Um lindo pôr do sol" width="300" height="200" class="imagem-destaque" id="minha-imagem">
+            </section>
+        </div>
+    </main>
+    <footer>
+            &copy; 2023 todos direitos reservados
+    </footer>
+</body>
+</html>
